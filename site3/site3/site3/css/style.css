@@ -1,0 +1,389 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Open+Sans&display=swap');
+:root {
+    --yasil: #54d154;
+    --boz:#b7b3b3;
+}
+header {
+    height: 100vh;
+    background: url('../img/headerbg.jpg') center/cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 0 1em 0;
+}
+nav { 
+    display: flex;
+    flex-direction: column;
+    padding: 6px 20px;
+}
+h1 {
+    font: bold 2em Montserrat, sans-serif;
+    color: #fff;
+    font-weight: 700;
+    padding: .7em 0;
+}
+h2 {
+    font: 1.25em Montserrat, sans-serif;
+    text-transform: uppercase;
+    color: #828181;
+    padding: 12px;
+}
+h5 {
+    font: 1em "Open Sans";
+    padding: 10px;
+}
+h6{
+    font: 1em Montserrat, sans-serif;
+    color:white
+}
+hr { 
+    width: 3em; 
+    height: 2px;
+    background: #828181;
+    margin: auto;
+}
+
+.bgyasil { background: var(--yasil) }
+.bgsari{background:#ffba00;}
+.bgboz { background: #f1f1f1 }
+.bgmavi{background: #089cea;}
+.bgqara{background: #111111;}
+.bgqirmizi{background: #f34c03;}
+.bgyasil h2 { color: #207b20 }
+.bgyasil h5 { color: #2b9b2b }
+.bgyasil hr { background: #207b20} 
+.txtboz{color: var(--boz);}
+.txtqara{color:#111111;}
+
+.vertical {
+    border-left: 3px solid #207b20;
+    height: 75px;
+    margin: 10px 75px;
+}
+
+#menu li a {
+    font: 1em  Montserrat, sans-serif;
+    color: #fff;
+    padding: 10px 0.7vw;
+    white-space: nowrap
+}
+#title button {
+    font: 1em Montserrat, sans-serif;
+    text-transform: uppercase;
+    padding: .8em 1.5em;
+    color: #fff;
+    background: var(--yasil);
+    border-radius: 1.3em;
+}
+main section:nth-child(3) div{
+    display: flex; 
+    justify-content: space-between;
+}
+main section:nth-child(3) div:first-of-type img{  
+    height: 30px;
+}
+main section:nth-child(3) div:last-of-type img{  
+    border: 1px solid var(--boz);
+    border-radius: 50%;
+    padding: 5px;
+}
+main section:nth-child(3) div:first-of-type p{  
+    padding: 0 10px;
+}
+
+main section:last-child button{
+    font: 1em Montserrat, sans-serif;
+    text-transform: uppercase;
+    padding: .8em 1.5em;
+    color: #fff;
+    background: var(--yasil);
+    border-radius: 1.3em;
+    box-shadow: 0px 2px #38a838;
+}
+#search input {
+    background: #ffffffcc url('../img/search.svg')  95% 40%/1.4em no-repeat;
+    font: 1em Montserrat, sans-serif;
+    color: #111;
+    padding: .4em 1em;
+    border-radius: 1em;
+}
+#scroll a {
+    background: #ffffffcc;
+    font: 1em Montserrat, sans-serif;
+    color: #111;
+    padding: .4em 1em;
+    border-radius: 1em;
+}
+main section {
+    padding: 40px 0;
+    text-align: center;
+}
+#cols3 article {
+    padding: 1em;
+}
+#cols3 h3{
+    padding-top: 25px;
+    font: 1.2em Montserrat, sans-serif;
+    color: #828181;
+    font-weight: bold;
+}
+#cols3 p{
+    padding-top: 20px;
+}
+#cols3 button{
+    margin-top: 25px;
+    font: 1em Montserrat, sans-serif;
+    border-radius: 1em;
+    padding: .4em 1em;
+    background-color:var(--yasil);
+    color: white;
+    
+}
+.iconshape {
+    background: #e0f3e0;
+    border-radius: 30px;
+    width: 140px;
+    height: 140px;
+    margin: auto;
+    display: flex;
+} 
+.iconshape i { 
+    font-size: 4.25em;
+    color: var(--yasil);
+    margin: auto;
+}
+#workbtn{
+    margin-top: 25px;
+    font: 1em Montserrat, sans-serif;
+    border-radius: 1.3em;
+    padding: .7em 1em;
+    background-color:#207b20;
+    color: white;
+}
+#clientbtn{
+    margin-top: 25px;
+    font: 1em Montserrat, sans-serif;
+    border-radius: 1.3em;
+    padding: .7em 1em;
+    background-color: #dddcdc;
+    color: #a59d9d;
+}
+main section:nth-child(2) .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main section:nth-child(2) .container img{
+    margin: 10px;
+    margin-top: 30px;
+}
+main section:nth-child(4) .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+main section:nth-child(4) .container img {
+    padding: 60px; 
+}
+main section:nth-child(5) .container  {
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+main section:nth-child(5) .container p{
+    font: 1em Montserrat, sans-serif;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+main section:nth-child(5) .container #contacts{
+    background-color: #c5e9c5;
+    border-radius:1.5em;
+    font-size: 1em;
+    padding: .1em;
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#contacts img{
+    padding: 1px 6px 0px 6px;
+}
+footer section{
+    padding: 40px 0;
+    text-align: center;
+}
+footer h3{
+    font: 1.2em Montserrat, sans-serif;
+    color:#dddddd; 
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+footer p{
+    font: 0.9em Montserrat, sans-serif;
+    color:#dddddd; 
+}
+footer hr{
+    width: 3em; 
+    height: 2px;
+    background: #dddddd;
+    margin: auto;
+    margin-bottom: 15px;
+}
+footer .container{   
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+footer #contacts{
+    background-color: white;
+    border-radius:1.5em;
+    font-size: 1em;
+    padding: .1em;
+    width: fit-content;
+    margin: auto;
+}
+footer .container article:nth-child(2) div img{
+    height: 50px;
+}
+footer section:first-child article:nth-child(2) button{
+    font: .7em Montserrat, sans-serif;
+    text-transform: uppercase;
+    width: fit-content;
+    padding: 2px 8px;
+    color:white;
+    border-radius: 0.3em;
+    margin-top: 5px;
+}
+footer .footercol:nth-child(2) div{
+    display: flex;
+    padding: 0 0 10px 15px;
+}
+footer .footercol:nth-child(2) div div{
+    display: flex; 
+    flex-direction:column;
+    padding: 0 0 0 10px;
+}
+
+footer form input,textarea{
+    width: 320px;
+    background: #444444;
+    color:white;
+    font: 0.9em Montserrat, sans-serif;
+    margin-top: 2px;
+    padding-left: 12px;
+    border: none;
+    outline: none;
+    resize: none;
+}
+footer form input[type="text"]{
+    height: 30px;
+}
+footer form{
+    padding-top: 25px;
+}
+footer form input:first-child{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+footer form button{
+    height: 30px;
+    width: 320px;
+    background-color: var(--yasil);
+    font: 0.9em Montserrat, sans-serif;
+    color: white;
+    text-transform: uppercase;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+footer section:nth-child(2) .container{
+    padding-top: 20px;
+    flex-direction: column;
+    gap: 20px;  
+}
+.footercol {
+    padding: 10px 10px; 
+}
+#btns3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+#btns3 button {
+    border: 1px solid #207b20;
+    padding: 8px 15px;
+    background: #FFF;
+    color: #207b20
+}
+#btns3 button:hover, .activebtn {
+    background: #207b20!important;
+    color: #FFF!important;
+}
+#btns3 button:first-child { border-radius: 17px 0 0 17px }
+#btns3 button:last-child { border-radius: 0 17px 17px 0 }
+
+@media only screen and (min-width: 768px) { 
+    .container { max-width: 1100px; margin: auto; }
+    h1 { font-size: 3.5em }
+    nav { 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    #menu { 
+        padding: 10px 0;
+        display: flex;
+        order: -1;
+        flex: 1 1 40%
+    }
+    #logo { flex: 1 1 20%; text-align: center; }
+    #search { flex: 1 1 40%; text-align: right; }
+    .active { 
+        font-weight: bold!important; 
+        border-top: 5px solid var(--yasil);
+    }
+    #title button {
+        font-size: 1.4em;
+        border-radius: 1.5em;
+    }
+    #cols3 { display: flex;}
+    main section:nth-child(2) .container img{
+        padding: 30px;
+        height:initial;
+        margin: initial;
+    }
+    main section:nth-child(4) .container{
+        justify-content: space-between;  
+    }
+    main section:nth-child(3) div{
+        display: flex; 
+        justify-content: space-between;
+    }
+    main section:nth-child(3) div:first-of-type img:first-of-type{
+        margin-left:200px; 
+        height: 30px;
+    }
+    main section:nth-child(3) div:first-of-type img:last-of-type{
+        margin-right:200px; 
+        height: 30px;
+    }
+    footer section:nth-child(2) .container{
+        flex-direction: initial;
+        display: flex;
+        justify-content: space-between;
+    }
+    footer .container{   
+        display:flex;
+        flex-wrap: nowrap; 
+    }
+    .footercol {
+        flex: 33.33%;
+        padding: 0 70px 0 0; 
+    }
+    .footercol:last-of-type {
+        padding: 0;
+    }
+    .footercol:nth-child(2) {
+        padding: 0 0px 0 10px; 
+    }
+}
